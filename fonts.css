@@ -10,3 +10,16 @@
 .font_nunitoSans{
     font-family: "Nunito Sans", sans-serif;
 }
+h3{
+    font-size: 25px
+}
+.font_oblique{
+    font-style: oblique;
+}
+.font_italic{
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
