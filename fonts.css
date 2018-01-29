@@ -1,3 +1,4 @@
+/*chosen font for paragraphs*/
 .font_sourceSans{
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -7,10 +8,11 @@
 .font_firaSans{
     font-family: "Fira Sans", sans-serif;
 }
+/*chosen font for headings*/
 .font_nunitoSans{
     font-family: "Nunito Sans", sans-serif;
 }
-h3{
+/*h3{
     font-size: 25px
 }
 .font_oblique{
@@ -18,8 +20,35 @@ h3{
 }
 .font_italic{
     font-style: italic;
+}*/
+.center{
+    text-align: center;
 }
 h1 {
     text-align: center;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #4D999B;
+    font-family: "Nunito Sans", sans-serif;
+}
+h3{
+text-align: center;
+    text-shadow: 2px 2px #4D999B;
+    font-family: "Nunito Sans", sans-serif;
+}
+h4{
+    text-shadow: 2px 2px #4D999B;
+    font-family: "Nunito Sans", sans-serif;
+}
+p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: #636363;
+}
+a:link{
+    color: #E88B74;
+}
+a:visited{
+    color: #9C6A4E
+}
+img {
+    border-radius: 50%;
 }

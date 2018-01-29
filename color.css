@@ -1,0 +1,23 @@
+/* color scheme: http://www.colorblender.com/?preloadblend=4D999B74E4E89C6A4EE88B746363639C9C9C
+#74E4E8 = light blue background
+#4D999B = dark blue/green heading shadow color
+#000000 = black for heading text color
+#9C9C9C = darker gray paragraph text color
+#E88B74 = peach hyperlink color (unvisited)
+#9C6A4E = brown hyperlink color (visited)*/
+.color_background{
+    color: #4D999B;
+}
+.color_paragraph{
+    color: #636363 ;
+}
+.color_heading{
+    color: #9C9C9C;
+}
+.color_link{
+    color: #E88B74
+}
+.color_visited{
+    color: #9C6A4E;
+}
+
