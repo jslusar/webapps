@@ -1,0 +1,131 @@
+/* color scheme: http://www.colorblender.com/?preloadblend=4D999B74E4E89C6A4EE88B746363639C9C9C
+#74E4E8 = light blue background
+#4D999B = dark blue/green heading shadow color
+#000000 = black for heading text color
+#636363 = darker gray paragraph text color
+#9C9C9C = light gray
+#E88B74 = peach hyperlink color (unvisited)
+#9C6A4E = brown hyperlink color (visited)*/
+/*---------------------------------------------*/
+/*COLOR SCHEME*/
+.font_white{
+    color: white;
+}
+.white{
+    background-color: white;
+}
+.dark_blue{
+    background-color: #4D999B;
+}
+.gray{
+    background-color: #9C9C9C;
+}
+.brown{
+    background-color: #9C6A4E;
+}
+.dark_gray{
+    background-color: #636363;
+}
+
+.center{
+    text-align: center;
+}
+/*---------------------------------------------*/
+/*Semantic Tags*/
+section{
+    border: 1px solid black;
+}
+article{
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px #4D999B;
+    font-family: "Nunito Sans", sans-serif;
+}
+h3{
+    background-color: #E88B74;
+    border: 1px solid black;
+    /*text-align: center;*/
+    text-shadow: 2px 2px #4D999B;
+    font-family: "Nunito Sans", sans-serif;
+}
+p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: #636363;
+}
+a:link{
+    color: #E88B74;
+}
+a:visited{
+    color: white;
+    /*color: #9C6A4E*/
+}
+img{
+    border-radius: 50%;
+    float: right;
+    overflow: hidden;
+    width: 10%;
+    height: auto;
+}
+
+/*--------------------------------------------------*/
+/*For phones*/
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 100%;}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: left;
+}
+.p3{
+    text-align: left;
+}
+/*---------------------------------------------------------------------*/
+/*For Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.col-1 {width: 50%;}
+.col-2 {width: 50%;}
+.col-3 {width: 100%;}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: right;
+}
+.p3{
+    text-align: center;
+}
+}
+/*----------------------------------------------------------------------*/
+/*For Desktop*/
+@media only screen and (min-width: 992px){
+.col-1 {width: 33.33%;}
+.col-2 {width: 33.33%;}
+.col-3 {width: 33.33%;}
+
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+}

@@ -30,15 +30,16 @@ h1 {
     font-family: "Nunito Sans", sans-serif;
 }
 h3{
-text-align: center;
+    text-align: center;
     text-shadow: 2px 2px #4D999B;
     font-family: "Nunito Sans", sans-serif;
 }
-h4{
+/*h4{
     text-shadow: 2px 2px #4D999B;
     font-family: "Nunito Sans", sans-serif;
-}
+}*/
 p{
+    text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: #636363;
