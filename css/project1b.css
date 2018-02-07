@@ -32,6 +32,9 @@
 }
 /*---------------------------------------------*/
 /*Semantic Tags*/
+body{
+    background-color: #74E4E8;
+}
 section{
     border: 1px solid black;
 }
@@ -69,25 +72,7 @@ img{
     width: 10%;
     height: auto;
 }
-
-/*--------------------------------------------------*/
-/*For phones*/
-* {
-    box-sizing: border-box;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-.col-1 {width: 100%;}
-.col-2 {width: 100%;}
-.col-3 {width: 100%;}
-.p1{
+/*.p1{
     text-align: left;
 }
 .p2{
@@ -95,14 +80,9 @@ img{
 }
 .p3{
     text-align: left;
-}
-/*---------------------------------------------------------------------*/
-/*For Tablets*/
-@media only screen and (min-width: 768px) and (max-width: 991px){
-.col-1 {width: 50%;}
-.col-2 {width: 50%;}
-.col-3 {width: 100%;}
-.p1{
+}*/
+
+./*p1{
     text-align: left;
 }
 .p2{
@@ -110,16 +90,10 @@ img{
 }
 .p3{
     text-align: center;
-}
-}
-/*----------------------------------------------------------------------*/
-/*For Desktop*/
-@media only screen and (min-width: 992px){
-.col-1 {width: 33.33%;}
-.col-2 {width: 33.33%;}
-.col-3 {width: 33.33%;}
+}*/
 
-.p1{
+
+/*.p1{
     text-align: left;
 }
 .p2{
@@ -127,5 +101,5 @@ img{
 }
 .p3{
     text-align: right;
-}
-}
+}*/
+
