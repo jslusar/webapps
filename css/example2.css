@@ -26,8 +26,9 @@
 .margin{
     margin: 10px;
 }
-.padding{
-    padding: 25px;
+.btn-primary:hover{
+background-color: #E88B74;
+border: 1px solid #636363;
 }
 /*---------------------------------------------*/
 /*Semantic Tags*/

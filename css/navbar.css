@@ -23,21 +23,16 @@
 .margin_b{
     margin-bottom: 25px;
 }
+.margin_t{
+    margin-top: 25px;
+}
 .margin{
     margin: 10px;
-}
-.padding{
-    padding: 25px;
 }
 /*---------------------------------------------*/
 /*Semantic Tags*/
 body{
     background-image: url("backgroundimg.jpg");
-}
-h1 {
-    text-align: center;
-    text-shadow: 2px 2px #FFF8DC;
-    font-family: "Nunito Sans", sans-serif;
 }
 h3{
     border-radius: 25px;

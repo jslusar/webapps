@@ -26,19 +26,17 @@
 .margin{
     margin: 10px;
 }
-.padding{
-    padding: 25px;
-}
 /*---------------------------------------------*/
 /*Semantic Tags*/
+
 body{
     background-image: url("backgroundimg.jpg");
 }
-h1 {
+/*h1 {
     text-align: center;
     text-shadow: 2px 2px #FFF8DC;
     font-family: "Nunito Sans", sans-serif;
-}
+}*/
 h3{
     border-radius: 25px;
     text-shadow: 2px 2px #D2B48C;
