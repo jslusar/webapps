@@ -127,3 +127,93 @@
 // for (var i = 0; i < names.length; i++) {
 //   console.log("Hello " + names[i]);
 // }
+
+
+// Activity 16
+// 1) What is wrong with this code?
+function a()
+{
+  return value =
+  {
+    name: "James T. Kirk",
+    starship: "Enterprise"
+  };
+}
+
+function b() {
+  return  value = {
+      name: "James T. Kirk",
+      starship: "Enterprise"
+  };
+}
+
+console.log(a());
+console.log(b());
+
+// 2) function default parameter values
+// function orderChickenWith(sideDish) {
+//   sideDish = sideDish || "whatever!";
+//   console.log("Chicken with " + sideDish);
+// }
+
+// orderChickenWith("noodles");
+// orderChickenWith();
+
+// 3) pass by ____
+// function changePrimitive(primValue) {
+//   console.log("in changePrimitive...");
+//   console.log("before:");
+//   console.log(primValue);
+
+//   primValue = 5;
+//   console.log("after:");
+//   console.log(primValue);
+// }
+
+// var value = 7;
+// changePrimitive(value); // primValue = value
+// console.log("after changePrimitive, orig value:");
+// console.log(value);
+
+// 4) pass by ____
+function changeObject(objValue) {
+  console.log("in changeObject...");
+  console.log("before:");
+  console.log(objValue);
+
+  objValue.x = 5;
+  console.log("after:");
+  console.log(objValue);
+}
+
+value = { x: 7 };
+changeObject(value); // objValue = value
+console.log("after changeObject, orig value:");
+console.log(value);
+
+// 5) Create an ES5 style class called Books that has three properties: title, author, and price. Include this in a separate JS file, then in a new JS file, use your book class as described here.
+
+// var b1 = new Book(
+//   "Harry Potter and the Deathly Hallows",
+//   "J.K. Rowling",
+//   10.49
+//   )
+// var b2 = new Book(
+//   "Harry Potter and the Philosopher's Stone",
+//   "J.K. Rowling",
+//   10.62
+// )
+// var b3 = new Book(
+//   "You Don't Know JS",
+//   "Kyle Simpson",
+//   2.99
+// )
+// var books = [b1, b2, b3];
+
+// // sort by price ascending (lowest to highest)
+// // display the books
+// // sort by price descending (highest to lowest)
+// // display the books
+// // did everything work as expected???
+
+// 13) Repeat 5, but now use a ES6-style class.
