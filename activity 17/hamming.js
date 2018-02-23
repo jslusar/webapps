@@ -7,13 +7,13 @@
  (function(window){
     var hamming = {}
 
-function hamming._min = function(d0, d1, d2, bx, ay)
+hamming._min = function(d0, d1, d2, bx, ay)
 {
   return d0;
 }
 
 
-function hamming.distance = function( a, b ) {
+hamming.distance = function( a, b ) {
 	var d, i, len;
 
 	while (a.length < b.length){

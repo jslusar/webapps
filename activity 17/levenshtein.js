@@ -2,7 +2,7 @@
 (function(window){
   var levenshtein = {}
 
-function levenshtein._min = function(d0, d1, d2, bx, ay)
+levenshtein._min = function(d0, d1, d2, bx, ay)
 {
   return d0 < d1 || d2 < d1
       ? d0 > d2
@@ -13,7 +13,8 @@ function levenshtein._min = function(d0, d1, d2, bx, ay)
           : d1 + 1;
 }
 
-function levenshtein.distance = function(a, b)
+levenshtein.distance = function(a, b)
+
 {
   if (a === b) {
     return 0;
@@ -27,6 +28,8 @@ function levenshtein.distance = function(a, b)
 
   var la = a.length;
   var lb = b.length;
+
+
 
   while (la > 0 && (a.charCodeAt(la - 1) === b.charCodeAt(lb - 1))) {
     la--;
