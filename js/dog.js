@@ -3,7 +3,7 @@
         const url = 'http://dog.ceo/api/breeds/image/random';
 
         // all takes an array of promises and waits for them to compelte
-        Promise.all([url,url,url].map(u=>fetch(u)))
+        Promise.all([url,url,url,url,url].map(u=>fetch(u)))
           .then (resp=>Promise.all(resp.map( r=> r.json())))
           .then (results=>{
             console.log(results)
